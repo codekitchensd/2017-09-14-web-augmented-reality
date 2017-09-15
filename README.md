@@ -62,7 +62,7 @@ If you want to use custom markers, ...
    2. A version sized down to 16x16 pixels, with a light gray (240,240,240) background, for training. The `.patt` file is generated for a 16x16 image, and resizing your image first makes it more easily-recognizable for the camera algorithms.
 3. Hack the `aframe-ar.js` or use the three.js code. The basepath in the github library is hardcoded, so you'll need to adjust that, or add your new pattern to the list of presets, and treat it like a preset marker.
 
-###Making custom fonts
+### Making custom fonts
 
 If you don't want to use Roboto, Exo, Source Code Pro, or one of the other stock WebVR fonts, you'll need to generate an SDF bitmap font. [The A-Frame docs have a guide.](https://aframe.io/docs/0.6.0/components/text.html#custom-fonts) I used the clunky Java [Hiero](https://github.com/libgdx/libgdx/wiki/Hiero) tool they recommended, and followed [the walkthrough they recommended](https://github.com/libgdx/libgdx/wiki/Distance-field-fonts), and it worked fine.
 
